@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <title> Contact </title>
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="img/Logoheadw.png">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://kit.fontawesome.com/71c76fcd1c.js" crossorigin="anonymous"></script>
+</head>
+<body class="aboutbody">   
+    <div id="preloader" >
+        <div class="loader">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="shadow"></div>
+            <div class="shadow"></div>
+            <div class="shadow"></div>
+        </div>
+        </div>      
+<header id="HeaderResponsive"> 
+        <a href="index.html"><img class="logo" src="img/Logo.svg" alt="Filip Kocijan"></a>
+        <a href="index.html"><img class="logohead" src="img/Logohead.svg" alt="Filip Kocijan"></a>
+        <button class="Switch" onclick="toggleDarkMode()"><i class="fa-regular fa-moon"></i></button>
+        <div class="navtoggle" id="myNavtoggle">  
+        <nav> 
+        <ul>
+        <li><a onclick="menuToggle()" href="index.html">HOME</a></li>
+        <li><a class="SelectedMenu" href="blog.html"><mark>BLOG</mark></a></li>
+        <li><a onclick="menuToggle()" href="#contact">CONTACT</a></li>
+        <li> 
+            <div class="hamburger-menu hamburger-menu-two">
+                <input type="checkbox" class="input-check2" id="input-check2" hidden/>
+                <label class="bars-container bars-container2" for="input-check2" onclick="menuToggle()">
+                    <span class="bar bar1"></span>
+                    <span class="bar bar2"></span>
+                    <span class="bar bar3"></span>
+                </label>
+            </div>
+        </li>
+        </ul>
+    </nav> 
+    </div>      
+</header>
+<div class="BlogDash"></div>
+<div class="BlogContainer"> 
+
+<div class="BlogPost slide-in frombottom">
+    <h5>Write faster with ChatGPT (written for last blog)</h5>
+    <div class="BlogImageWrap"><a href="writefaster.html"><img class="BlogImage" src="img/ChatGPT.png" alt="ChatGPT"></a></div>
+    <div class="BlogDescription">
+    <div>
+        <h6>Read time: 5min</h6>
+        <h6>February 27, 2023</h6>
+    </div>
+    <a class="button-2" href="writefaster.html">See post</a>
+    </div>
+</div>
+
+<div class="BlogPost slide-in frombottom">
+    <h5>How to Optimize Your Web Design for Better SEO Results</h5>
+    <div class="BlogImageWrap"><a href="OptimizeWebDesign.html"><img class="BlogImage" src="img/BlogNo1.png" alt="SEO optimized"></a></div>
+    <div class="BlogDescription">
+    <div>
+        <h6>Read time: 10min</h6>
+        <h6>February 23, 2023</h6>
+    </div>
+    <a class="button-2" href="OptimizeWebDesign.html">See post</a>
+    </div>
+</div>
+
+</div>
+    
+<footer id="contact">
+    <div class="call">
+        <h2>Want to create something <mark class="mark2">extraordinary</mark>? Let's set up a meeting.</h2>
+        <a href="contact.html" class="button-1" role="button">Contact us <i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+    <div class="footer">
+    <div>
+        <a href="index.html"><img class="logofooter" src="img/Logofooter.png" alt="Filip Kocijan"></a>
+    </div>
+    <section class="icons">
+    <ul class="icon-list">  
+    <li class="icon-item"><a href="https://www.youtube.com/channel/UCSWTs5M-vovdBKbOp_aiVJQ" target="_blank" class="icon"><i class="fa-brands fa-youtube fa-2xl"></i></a></li>
+    <li class="icon-item"><a href="https://www.linkedin.com/in/filip-kocijan-246507216/" target="_blank" class="icon"><i class="fa-brands fa-linkedin fa-2xl"></i></a></li>
+    <li class="icon-item"><a href="https://www.instagram.com/filip_kocijan/" target="_blank" class="icon"><i class="fa-brands fa-instagram fa-2xl"></i></a></li>
+    </ul>
+    </section>
+    <div>
+    <small> Copyright Jellyfish UX 2023. </small>
+    </div>
+    </div>
+</footer>
+<script src="js/jQuery.js"></script> 
+<script src="js/scripts.js"></script> 
+</body>
+</html>

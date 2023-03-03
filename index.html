@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> Home </title> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <link rel="icon" type="image/x-icon" href="img/Logoheadw.png">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;500;700&display=swap');
+      </style>
+    <script src="https://kit.fontawesome.com/71c76fcd1c.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Open+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body id="dark">
+<div id="preloader" >
+<div class="loader">
+	<div class="circle"></div>
+	<div class="circle"></div>
+	<div class="circle"></div>
+	<div class="shadow"></div>
+	<div class="shadow"></div>
+	<div class="shadow"></div>
+</div>
+</div>     
+<header id="HeaderResponsive"> 
+    <a href="index.html"><img class="logo" src="img/Logo.svg" alt="Filip Kocijan"></a>
+    <a href="index.html"><img class="logohead" src="img/Logohead.svg" alt="Filip Kocijan"></a>
+    <button class="Switch" onclick="toggleDarkMode()"><i class="fa-regular fa-moon"></i></button>
+    <div class="navtoggle" id="myNavtoggle" onscroll="changeNav()">  
+    <nav> 
+    <ul>
+    <li><a class="SelectedMenu" onclick="menuToggle()" href="#top"><mark>HOME</mark></a></li>
+    <li><a onclick="menuToggle()" href="blog.html">BLOG</a></li>
+    <li><a onclick="menuToggle()" href="#contact">CONTACT</a></li>
+    <li> 
+        <div class="hamburger-menu hamburger-menu-two">
+            <input type="checkbox" class="input-check2" id="input-check2" hidden/>
+            <label class="bars-container bars-container2" for="input-check2" onclick="menuToggle()">
+              <span class="bar bar1"></span>
+               <span class="bar bar2"></span>
+               <span class="bar bar3"></span>
+            </label>
+        </div>
+    </li>
+    </ul>
+    </nav> 
+    </div>      
+</header> 
+    
+    <div id="top" class="desc">
+        <div>
+        <h1 class="fromleft slide-in">We help businesses <mark>start and grow</mark> online.</h1>
+        <p> <br /> </p>
+        <h4 class="fromleft slide-in">Tell us your needs, and we can start growing your business together.</h4>
+        </div>
+        <div class="BlobImage slide-in frombottom">
+        <img src="img/isometric.png">
+        <div id="blob"></div>
+        </div>
+    </div> 
+    <div id="about" class="container">
+        
+        <h3>How can we help <mark><u>your business</u></mark>?</h3>
+        <div class="process">
+            <h4 ><mark>Marketing</mark></h4>
+            <p> <br /> </p>
+            <h5 class="fromleft slide-in">Paid ads</h5>
+            <p class="fromleft slide-in">Thinking of getting your business online? We have a range of services that can be tailored to your specific needs to hit your marketing goals with ease. Anything from Facebook to Google ads, we can manage it all. Our first priority is to set your target customers and develop a strategy that will win them over.</p>
+        </div>
+        <p> <br /> </p>
+            <h5 class="fromleft slide-in">Social media management</h5>
+            <p class="fromleft slide-in">Social media management is an essential part of any modern digital marketing strategy. With billions of users active on social media platforms like Facebook, Instagram, Twitter, and LinkedIn, social media offers an incredible opportunity to connect with your target audience and build brand awareness. By outsourcing your social media management to a professional agency, you can benefit from a range of advantages. Firstly, a dedicated social media team can help you save time and resources by handling your social media profiles, creating engaging content, and responding to customer inquiries and comments. This allows you to focus on other important aspects of your business while still maintaining a strong social media presence.</p>
+        <p> <br /> </p>    
+            <p class="fromleft slide-in">In addition to saving time and resources, social media management can also help you build a strong and engaged community around your brand. By consistently posting high-quality content and engaging with your followers, you can build trust and loyalty with your audience. This can translate into increased brand recognition, referral traffic, and sales. Furthermore, social media management can also help you gain valuable insights into your target audience's behavior and preferences through analytics and data tracking. By analyzing this data, you can optimize your social media strategy to achieve even better results.</p>
+        <p> <br /> </p>
+        <p class="fromleft slide-in">Overall, social media management is an essential component of any successful digital marketing strategy. With the help of a professional agency, you can leverage the power of social media to grow your business and connect with your audience in a meaningful way.</p>
+        <p> <br /> </p>
+        <div class="skills">
+            <div class="slide-in skill frombottom">
+                <img class="SkillIcon" src="img/BeginnerIcon.svg" alt="DesignIcon">
+                <h4 class="Center"><mark class="mark2">Beginner</mark></h4>
+                <h4 class="Center">1000$/month</h4>
+                <p> <br /> </p>
+                <h6>Best for small businesses who are just starting in building their online presence.</h6>              
+                <p> <br /> </p>
+                <ul>
+                <h6>- 1 social platform</h6>
+                <h6>- 12 posts per month</h6>
+                <h6>- Custom content strategy</h6>
+                <h6>- Original content</h6>
+                <h6>- Performance reports</h6>
+                </ul>
+                <p> <br /> </p>
+                <a href="contact.html" class="button-2" role="button">I want to grow <i class="fa-solid fa-arrow-trend-up"></i> </a>
+            </div>
+            <p> <br /> </p>
+            <div class="slide-in skill frombottom">
+                <img class="SkillIcon" src="img/GrowerIcon.svg" alt="DevelopmentIcon">
+                <h4 class="Center"><mark class="mark2">Grower</mark></h4>
+                <h4 class="Center">1500$/month</h4>
+                <p> <br /> </p>
+                <h6>If you want a standard package that will gain you organic and paid growth, this package is for you.</h6>
+                <p> <br /> </p>
+                <ul>
+                <h6>- 2 social platforms</h6>
+                <h6>- 20 posts per month</h6>
+                <h6>- Custom content strategy</h6>
+                <h6>- Original content</h6>
+                <h6>- Monthly performance reports</h6>
+                </ul>
+                <p> <br /> </p>
+                <a href="contact.html" class="button-2" role="button">I want to grow <i class="fa-solid fa-arrow-trend-up"></i> </a></div>
+            <p> <br /> </p>
+            <div class="slide-in skill frombottom">
+                <img class="SkillIcon" src="img/PremiumIcon.svg" alt="SmmIcon">
+                <h4 class="Center"><mark class="mark2">Premium</mark></h4>
+                <h4 class="Center">2000$/month</h4>
+                <p> <br /> </p>
+                <h6>Our premium offer for businesses that want to grow fast.</h6>
+                <p> <br /> </p>
+                <ul>
+                <h6>- 3 social platforms</h6>
+                <h6>- 30 posts per month</h6>
+                <h6>- Custom content strategy</h6>
+                <h6>- Original content</h6>
+                <h6>- Monthly performance reports</h6>
+                </ul>
+                <p> <br /> </p>
+                <a href="contact.html" class="button-2" role="button">I want to grow <i class="fa-solid fa-arrow-trend-up"></i> </a></div>
+            </div>
+            </div>
+    <div id="skills" class="container">
+        <h3>Our <mark>skills</mark></h3>
+        <div class="skills">
+        <div class="slide-in skill">
+            <img class="SkillIcon" src="img/PaidAdsIcon.svg" alt="PaidAdsIcon">
+            <h4 class="Center"><mark class="mark2">Paid ads</mark></h4>
+            <p>Boost your reach with paid ads on different platforms. Whether your targeted audience is on Facebook, Instagram or somewhere specific on google, paid ads can help you reach them with ease.</p>
+            <p> <br /> </p>
+            <ul>
+                <p>- Facebook Ads</p>
+                <p>- Instagram Ads</p>
+                <p>- Google AdSense</p>
+                <p>- Twitter Ads</p>
+                <p>- TikTok Ads</p>
+            </ul>
+        </div>
+        <p> <br /> </p>
+        <div class="slide-in skill">
+            <img class="SkillIcon" src="img/SEOIcon.svg" alt="SEOIcon">
+            <h4 class="Center"><mark class="mark2">Search engine optimization</mark></h4>
+            <p>As everything is moving online, much faster that before, every business should incorporate a SEO strategy into their marketing campaigns. These are some strategies for you to use in your next marketing efforts:</p>
+            <p> <br /> </p>
+            <ul>
+                <p>- Keyword research</p>
+                <p>- Content marketing</p>
+                <p>- On-page SEO</p>
+                <p>- Link building</p>
+                <p>- SEO outsourcing</p>
+            </ul>
+        </div>
+        <p> <br /> </p>
+        <div class="slide-in skill">
+            <img class="SkillIcon" src="img/SmmIcon.svg" alt="SmmIcon">
+            <h4 class="Center"><mark class="mark2">Social media marketing</mark></h4>
+            <p>With billions of users across multiple platforms, social media has become a vital aspect of modern marketing. Our social media professionals will collaborate with you to create a tailored approach for your specific needs and objectives. We'll assist you with identifying your target audience, creating interesting content that resonates with them, and developing an effective publishing schedule to increase reach and interaction.</p>
+            
+        </div>
+        </div>
+    
+    </div>
+    <footer id="contact">
+        <div class="call">
+            <h2>Want to create something <mark class="mark2">extraordinary</mark>? Send us a message.</h2>
+            <a href="contact.html" class="button-1" role="button">Contact us <i class="fa-solid fa-arrow-right"></i> </a>
+        </div>
+        <div class="footer">
+        <div>
+            <a href="index.html"><img class="logofooter" src="img/Logofooter.png" alt="Filip Kocijan"></a>
+        </div>
+        <section class="icons">
+        <ul class="icon-list">  
+        <li class="icon-item"><a href="https://www.youtube.com/channel/UCSWTs5M-vovdBKbOp_aiVJQ" target="_blank" class="icon"><i class="fa-brands fa-youtube fa-2xl"></i></a></li>
+        <li class="icon-item"><a href="https://www.linkedin.com/in/filip-kocijan-246507216/" target="_blank" class="icon"><i class="fa-brands fa-linkedin fa-2xl"></i></a></li>
+        <li class="icon-item"><a href="https://www.instagram.com/filip_kocijan/" target="_blank" class="icon"><i class="fa-brands fa-instagram fa-2xl"></i></a></li>
+        </ul>
+        </section>
+        <div>
+        <small> Copyright Jellyfish UX 2023. </small>
+        </div>
+        </div>
+    </footer>
+    <script src="js/jQuery.js"></script> 
+    <script src="js/scripts.js"></script>
+   
+</body>  
+</html>

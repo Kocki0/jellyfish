@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <title> Contact </title>
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="img/Logoheadw.png">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://kit.fontawesome.com/71c76fcd1c.js" crossorigin="anonymous"></script>
+</head>
+<body>  
+<div id="preloader" >
+    <div class="loader">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="shadow"></div>
+            <div class="shadow"></div>
+            <div class="shadow"></div>
+    </div>
+</div>       
+<header id="HeaderResponsive"> 
+    <a href="index.html"><img class="logo" src="img/Logo.svg" alt="Filip Kocijan"></a>
+    <a href="index.html"><img class="logohead" src="img/Logohead.svg" alt="Filip Kocijan"></a>
+    <button class="Switch" onclick="toggleDarkMode()"><i class="fa-regular fa-moon"></i></button>
+    <div class="navtoggle" id="myNavtoggle">  
+    <nav> 
+    <ul>
+    <li><a onclick="menuToggle()" href="index.html">HOME</a></li>
+    <li><a onclick="menuToggle()" href="blog.html">BLOG</a></li>
+    <li><a class="SelectedMenu" href="#contact"><mark>CONTACT</mark></a></li>
+    <li> 
+        <div class="hamburger-menu hamburger-menu-two">
+            <input type="checkbox" class="input-check2" id="input-check2" hidden/>
+            <label class="bars-container bars-container2" for="input-check2" onclick="menuToggle()">
+              <span class="bar bar1"></span>
+               <span class="bar bar2"></span>
+               <span class="bar bar3"></span>
+            </label>
+        </div>
+    </li>
+    </ul>
+    </nav> 
+    </div>      
+</header>
+<div class="ContactContainer">
+<div class="contactform">
+    <h4>Got a <mark>project</mark> in mind? Send us a message and let's see if we are a fit!</h4>
+    <form action="https://formbold.com/s/3j27D" method="POST">
+    <div class="FormInput">
+    <label>
+      <h6>Your email:</h6>
+      <input type="email" placeholder="Type.." name="email">
+    </label>
+    <label>
+        <h6>Your message:</h6>
+      <textarea name="message" placeholder="Type.."></textarea>
+    </label>
+    </div>
+    <button class="button-2" type="submit">Send message <i class="fa-solid fa-paper-plane"></i></button>
+    </form>
+</div>
+
+<div class="WaveAnimation">
+    <div>
+    <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+    viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+    <defs>
+    <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v55h-352z" />
+    </defs>
+    <g class="parallax">
+    <use xlink:href="#gentle-wave" x="68" y="0" fill="rgb(43,101,236,0.7)" />
+    <use xlink:href="#gentle-wave" x="68" y="3" fill="rgb(43,101,236,0.5)" />
+    <use xlink:href="#gentle-wave" x="68" y="5" fill="rgb(43,101,236,0.4)" />
+    <use xlink:href="#gentle-wave" x="68" y="7" fill="rgb(43,101,236)" />
+    </g>
+    </svg>
+    </div>
+</div>
+</div>
+<footer id="contact">
+    <div class="footer">
+    <div>
+        <a href="index.html"><img class="logofooter" src="img/Logofooter.png" alt="Filip Kocijan"></a>
+    </div>
+    <section class="icons">
+    <ul class="icon-list">  
+    <li class="icon-item"><a href="https://www.youtube.com/channel/UCSWTs5M-vovdBKbOp_aiVJQ" target="_blank" class="icon"><i class="fa-brands fa-youtube fa-2xl"></i></a></li>
+    <li class="icon-item"><a href="https://www.linkedin.com/in/filip-kocijan-246507216/" target="_blank" class="icon"><i class="fa-brands fa-linkedin fa-2xl"></i></a></li>
+    <li class="icon-item"><a href="https://www.instagram.com/filip_kocijan/" target="_blank" class="icon"><i class="fa-brands fa-instagram fa-2xl"></i></a></li>
+    </ul>
+    </section>
+    <div>
+    <small> Copyright Jellyfish UX 2023. </small>
+    </div>
+    </div>
+</footer>
+<script src="js/jQuery.js"></script> 
+<script src="js/scripts.js"></script> 
+</body>
+</html>
